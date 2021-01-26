@@ -1,4 +1,3 @@
-
 # Exercice site Laure Dinateur version mobile
 
 ## Objectifs
@@ -41,8 +40,10 @@ Aspect général :
   https://fonts.google.com/specimen/Open+Sans
 * Police des titres `Changa One`, épaisseur 400 -
   https://fonts.google.com/specimen/Changa+One
-* Tailles des titre de niveau 1 `2rem`
-* Tailles des titre de niveau 2 `1.5rem`
+* Tailles des titres de niveau 1 `2rem`
+  * Marge extérieure en bas de `1em`
+* Tailles des titres de niveau 2 `1.5rem`
+  * Marge extérieure en bas de `.75em`
 * Hauteur de ligne des paragraphes `1.5`
 * Les liens du site sont rouges `#e71d36` et ne sont **pas soulignés**
 
@@ -111,10 +112,63 @@ maquettes, images, ....
 
 
 ### Maquette
-![Maquette de la page Me contacter](_sources/maquettes/présentation.png)
+![Maquette de la page Qui suis-je](_sources/maquettes/présentation.png)
 
 ### Instructions du designer
 * Utiliser les bordures arrondies CSS `border-radius` pour donner la forme de
   cercle à l'image.
+
+## Travail #2 - Réaliser la page _Me contacter_
+
+La page de contact _Me contacter_ `contact.html` contient :
+* un titre principal
+* deux sections`<section>` :
+  *  section `infos` :
+    * un titre secondaire
+    * deux paragraphes
+  * section `contact`
+    * liste de contacts `<ul>`
+
+
+### Maquette
+![Maquette de la page Me contacter](_sources/maquettes/me-contacter.png)
+
+### Instructions du designer
+
+* Utiliser les images d'arrière-plan pour placer les icônes de la liste
+  * Article expliquant comment procéder :
+    https://openweb.eu.org/articles/puces_images
+  * Les fichiers des icônes sont :
+    * `phone.png`
+    * `mail.png`
+    * `twitter.png`
+    * `facebook.png`
+
+## Travail #3 - Réaliser la page _Accueil_
+
+Les contenus de la page d'accueil sont :
+* un titre principal
+* une galerie, liste `<ul>`, d'images
+  * Les images et leur description sont contenues dans un lien
+  * Lorsqu'on clique sur ce lien, cela ouvre l'image dans un nouvel onglet
+  * Utiliser les éléments HTML `<figure>` et `<figcaption>` pour délimiter les
+    images et leur description
+  * Lire cet article : https://www.alsacreations.com/article/lire/1337-html5-elements-figure-et-figcaption.html
+
+### Maquette
+![Maquette de la page Accueil](_sources/maquettes/accueil.png)
+
+### Instructions du designer
+* Afficher les images sur deux colonnes en utilisant la technique
+  `display:inline-block`
+* Les éléments de la liste d'images `<li>` font `45%` de largeur et ont une
+  marge extérieure de `2.5%`.
+* Aligner verticalement les éléments `<li>` par le haut `vertical-align:top;`
+* La légende des images à une marge intérieure de `10px` et une taille de
+  texte de `1rem`.
+* Le débordement `overflow` du texte de la légende doit être masqué. 
+
+  
+
 
 
