@@ -1,0 +1,47 @@
+body {
+    color: #a244cd;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+/*************************
+Entête
+***************************/
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+header .logo {
+    display: block;
+    margin: 1em 0;
+    color: dodgerblue;
+    text-align: center;
+}
+
+header .menu a {
+    color: white;
+}
+
+header .menu {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+header .menu li {
+    display: inline-block;
+    margin: 0 .5em;
+}
+header .menu li a {
+    display: block;
+    padding: .8em .2em;
+}
