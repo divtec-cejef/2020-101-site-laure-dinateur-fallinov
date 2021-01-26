@@ -45,3 +45,20 @@ header nav ul li a {
     display: block;
     padding: .8em 0;
 }
+
+
+/************************
+PAGE INFOS
+*************************/
+
+.page-infos p {
+    background-color: yellow;
+}
+
+/************************
+PAGE CONTACT
+*************************/
+
+.page-contact p {
+    background-color: red;
+}
