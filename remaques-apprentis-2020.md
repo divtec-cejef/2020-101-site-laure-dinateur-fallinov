@@ -46,3 +46,5 @@
 * Dans `<title>` bien mettre les mots-clés correspondant à la page : `Informations | Laure Dinateur | Graphiste`
 * Aérer le code en ajoutant une ligne vierge entre chaque déclaration CSS
 * Ajouter le reset CSS `normalize.css` avant `main.css`
+* Dans `<title>`, ne pas mettre uniquement le nom du site.
+  Il ne faut pas oublier de mettre en 1er le nom de la page (copie du h1)
