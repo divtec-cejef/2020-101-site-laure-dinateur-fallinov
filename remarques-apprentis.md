@@ -39,3 +39,7 @@
 * Ajouter un ligne vierge à la fin de tous vos fichiers HTML et CSS
 * Un `<p>` doit contenir au minimum une phrase 
   pour avoir du sens. Si ce n'est pas le cas on préférera une `<div>`.
+* Dans body toujours définir :
+  * La couleur de fond du site
+  * La police de base : famille, taille, couleur, épaisseur
+  * La hauteur de ligne
