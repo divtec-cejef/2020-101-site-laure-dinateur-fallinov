@@ -14,4 +14,4 @@
 * Essayer de grouper les déclaration identique : `h1, h2, h3`
 * Placer `<header>` dans `<body>`
 * Pas de majuscule dans les noms de class
-
+* Placer le contenu principal de votre page dans `<main>`
