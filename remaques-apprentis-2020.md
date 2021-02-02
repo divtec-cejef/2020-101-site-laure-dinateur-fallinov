@@ -14,9 +14,10 @@
 * Placer `<header>` dans `<body>`
 * Pas de majuscule dans les noms de class : `monChien -> mon-chien`
 * Placer le contenu principal de votre page dans `<main>`
-  `<br>` inutile !
-    * Ne jamais utiliser <br> pour créer un espacement vertical !
-    * Uniquement pour forcer un retour à la ligne !
+* `<br>` inutile !
+  * Ne jamais utiliser <br> pour créer un espacement vertical !
+  * Uniquement pour forcer un retour à la ligne !
+  * Pour créer de l'espace utilser les marges CSS
 * CSS spécifique à une page
     - Créer les groupes pour les règles spécifiques à une page.
     - Ajouter la class `page-xxxx` au `<body>` de chaque page.
@@ -48,3 +49,4 @@
 * Ajouter le reset CSS `normalize.css` avant `main.css`
 * Dans `<title>`, ne pas mettre uniquement le nom du site.
   Il ne faut pas oublier de mettre en 1er le nom de la page (copie du h1)
+* CSS, Ajouter un espace après les `,` des sélecteurs
