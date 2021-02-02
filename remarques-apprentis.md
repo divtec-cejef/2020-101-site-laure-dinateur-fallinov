@@ -34,3 +34,5 @@
   5. Page accueil
   6. Page informations
   7. ...
+* Pas d'id sauf si c'est pour placer une ancre HTML. Remplacer id par class
+* Supprimer `height `et `width`. On modifie la taille d'une image en CSS
