@@ -15,3 +15,6 @@
 * Placer `<header>` dans `<body>`
 * Pas de majuscule dans les noms de class
 * Placer le contenu principal de votre page dans `<main>`
+  `<br>` inutile !
+  * Ne jamais utiliser <br> pour créer un espacement vertical !
+  * Uniquement pour forcer un retour à la ligne !
