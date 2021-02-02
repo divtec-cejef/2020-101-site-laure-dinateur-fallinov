@@ -26,3 +26,4 @@
   - Un seul lien vers Google Fonts
   - Injecter les Google Fonts dans `main.css` avec la directive `@import`
 * Dans le menu principal, ajouter lien vers `index.php`, cacher le `<li>` avec un `diplay:none;`
+* Interdiction d’utiliser la balise `<center>`. Remplacer par une `<div>` et y appliquer `text-align: center` en CSS
