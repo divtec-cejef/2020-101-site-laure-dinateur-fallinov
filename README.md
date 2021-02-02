@@ -1,174 +1,45 @@
-# Exercice site Laure Dinateur version mobile
-
-## Objectifs
-
-* Créer le site internet de la graphiste *Laure Dinateu*r en se basant sur les
-  maquettes, images, textes et instructions fournis par le designer.
-* Ce site se divise en **3 pages** :
-  * `index.html` page d'accueil du site présentant une galerie de 5
-    réalisations de Laure Dinateur
-  * `informations.html` présentation Laure Dinateur en 3 paragraphes
-  * `contact.html` Paragraphes d'informations générales et liste des
-    différents moyens de contact.
-* Le code CSS du site doit être contenu dans une **feuille de style externe** `main.
-  css`. Ce fichier n'existe pas, vous devrez le créer et le lier à vos pages HTML.
-* Le code HTML et CSS doit **respecter les standards du W3C** et **doit être validé**
-  sur le site https://validator.w3.org/
-
-## Documents utiles
-
-Vous trouverez tous les fichiers utiles à la réalisation du site dans le dossier `_sources/` de ce projet.
-
-Liste des fichiers :
-* `images/` ce dossier contient les réalisations, photos et logos et icônes du
-  site.
-* `maquettes/` les maquettes du site.
-* `base.html` fichier HTML de base à copier pour créer vos pages
-  HTML.
-* `lauredi-contenus.txt` les textes du site.
-* `palette.pdf`, `palette.png`, `palette.url` la palette des couleurs du site
-  dans différents formats.
-
-## Structure générale du site
-
-Aspect général :
-* Couleur d'arrière-plan : `#fdfffc`
-* Couleur du texte `#011627`
-* Tailles du texte `100%`
-* Hauteur de ligne `1.4`
-* Police du texte Open Sans`, épaisseur 400 -
-  https://fonts.google.com/specimen/Open+Sans
-* Police des titres `Changa One`, épaisseur 400 -
-  https://fonts.google.com/specimen/Changa+One
-* Tailles des titres de niveau 1 `2rem`
-  * Marge extérieure en bas de `1em`
-* Tailles des titres de niveau 2 `1.5rem`
-  * Marge extérieure en bas de `.75em`
-* Hauteur de ligne des paragraphes `1.5`
-* Les liens du site sont rouges `#e71d36` et ne sont **pas soulignés**
-
-Le site se divise en trois parties :
-* Entête
-* Contenu principal
-* Pied de page
-
-### Entête `<header>`
-L'entête se compose d'un **logo texte** et d'un **menu de navigation**
-
-Les contenus, textes, de l'entête sont centrés horizontalement.
-
-#### Logo texte
-* Lorsqu'on clique sur le logo, cela nous renvoie à la page d'accueil `index.
-  html`
-* La taille du texte "Laure Dinateur" est de `1.75rem`.
-
-#### Menu de navigation
-
-* Le menu de navigation `<nav>` contient une **liste `<ul>` de trois liens**.
-  Mais sur mobile, seuls deux sont visibles,
-  car il n'y a pas assez de place en largeur sur les petits terminaux.
-* Liste des liens du menu :
-  * **Accueil** `index.html` - caché en CSS `display:none;`
-  * **Qui suis-je ?** `informations.html`
-  * **Me contacter** `contact.html`
-* Les éléments de la liste du menu `<li>` s'affichent **sans puces, sans marge
-  intérieure et en ligne** `display:inline-block;`
-* Pour faciliter la sélection des liens sur mobile, les liens sont espacés de
-  `30px.
-* La couleur du texte des liens devient bleue `#2ec4b6` lorsqu'ils sont
-  survolés `:hover`.
-
-### Contenu principal `<main>`
-Contiens le titre principal de la page et ses contenus (images, paragraphes,
-titres, sections, liens, éléments importants, figures avec légende)
-
-* Le contenu principal à une marge extérieure gauche et droite de 5%.
-
-### Pied de page `<footer>`
-Contiens la **liste des réseaux sociaux** de Laure Dinateur et le **copyright**.
-* Les contenus du pied de page sont centrés horizontalement.
-* La liste des réseaux sociaux est un élément de navigation `<nav>`, tout
-  comme le menu de navigation de l'entête.
-* Les images ont une largeur de `50px` sont espacées de `30px`.
-* Un filtre gris CSS est appliqué aux images du pied de page `filter: grayscale
-  (1);`
-* Lorsqu'on passe au-dessus des images avec la souris `:hover`, les images
-  reprennent des couleurs `filter: grayscale(0);` avec une transition
-  `transition: filter 500ms linear;`
-
-## Travail #1 - Réaliser la page _Qui suis-je ?_
-
-La page de présentation _Qui suis-je ?_ `informations.html` est la plus
-simple du site, elle se compose de :
-* une image
-* un titre principal
-* trois paragraphes
-* un lien vers le Twitter de Laure Dinateur https://twitter.com/lauredi
-
-Vous devez créer cette page en vous basant sur les instructions de la
-_Structure générale du site_ et des différents contenus : textes, palettes,
-maquettes, images, ....
-
-
-
-### Maquette
-![Maquette de la page Qui suis-je](_sources/maquettes/présentation.png)
-
-### Instructions du designer
-* Utiliser les bordures arrondies CSS `border-radius` pour donner la forme de
-  cercle à l'image.
-
-## Travail #2 - Réaliser la page _Me contacter_
-
-La page de contact _Me contacter_ `contact.html` contient :
-* un titre principal
-* deux sections`<section>` :
-  *  section `infos` :
-    * un titre secondaire
-    * deux paragraphes
-  * section `contact`
-    * liste de contacts `<ul>`
-
-
-### Maquette
-![Maquette de la page Me contacter](_sources/maquettes/me-contacter.png)
-
-### Instructions du designer
-
-* Utiliser les images d'arrière-plan pour placer les icônes de la liste
-  * Article expliquant comment procéder :
-    https://openweb.eu.org/articles/puces_images
-  * Les fichiers des icônes sont :
-    * `phone.png`
-    * `mail.png`
-    * `twitter.png`
-    * `facebook.png`
-
-## Travail #3 - Réaliser la page _Accueil_
-
-Les contenus de la page d'accueil sont :
-* un titre principal
-* une galerie, liste `<ul>`, d'images
-  * Les images et leur description sont contenues dans un lien
-  * Lorsqu'on clique sur ce lien, cela ouvre l'image dans un nouvel onglet
-  * Utiliser les éléments HTML `<figure>` et `<figcaption>` pour délimiter les
-    images et leur description
-  * Lire cet article : https://www.alsacreations.com/article/lire/1337-html5-elements-figure-et-figcaption.html
-
-### Maquette
-![Maquette de la page Accueil](_sources/maquettes/accueil.png)
-
-### Instructions du designer
-* Afficher les images sur deux colonnes en utilisant la technique
-  `display:inline-block`
-* Les éléments de la liste d'images `<li>` font `45%` de largeur et ont une
-  marge extérieure de `2.5%`.
-* Aligner verticalement les éléments `<li>` par le haut `vertical-align:top;`
-* La légende des images à une marge intérieure de `10px` et une taille de
-  texte de `1rem`.
-* Le débordement `overflow` du texte de la légende doit être masqué. 
-
-  
-
-
-
+* Créer un dossier `images/` ou `img/`
+  Pour `favicon.ico` on peut simplement la placer à la racine du site.
+* Utiliser une `<ul>` pour organiser les réseaux sociaux.
+* Éviter les doubles lignes blanches, vides !
+* Marges en % uniquement pour les marges gauche et droite !
+* Si balise à l'intérieur pas besoin de créer une ligne vide
+* Ajouter CSS du reset CSS :
+  `<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" >`
+* Attention à l'indentation !
+* pas d'espace avant et après le `=` des attributs
+* éviter les espaces au début des balises sauf si nécessaire.
+* Footer : Créer une liste ul de a contenants des img
+* Essayer de grouper les déclarations identiques : `h1, h2, h3`
+* Placer `<header>` dans `<body>`
+* Pas de majuscule dans les noms de class : `monChien -> mon-chien`
+* Placer le contenu principal de votre page dans `<main>`
+  `<br>` inutile !
+  * Ne jamais utiliser <br> pour créer un espacement vertical !
+  * Uniquement pour forcer un retour à la ligne !
+* CSS spécifique à une page
+  - Créer les groupes pour les règles spécifiques à une page.
+  - Ajouter la class `page-xxxx` au `<body>` de chaque page.
+* Manque l’icône du site : `favicon.ico`
+* Google Fonts
+  - Un seul lien vers Google Fonts
+  - Injecter les Google Fonts dans `main.css` avec la directive `@import`
+* Dans le menu principal, ajouter lien vers `index.php`, cacher le `<li>` avec un `diplay:none;`
+* Interdiction d’utiliser la balise `<center>`. Remplacer par une `<div>` et y appliquer `text-align: center` en CSS
+* Organiser en bloc de commentaire les différents groupes de règles :
+  1. Général
+  2. Header
+  3. Main
+  4. Footer
+  5. Page accueil
+  6. Page informations
+  7. ...
+* Pas d'id sauf si c'est pour placer une ancre HTML. Remplacer id par class
+* Supprimer `height `et `width`. On modifie la taille d'une image en CSS
+* Ajouter un ligne vierge à la fin de tous vos fichiers HTML et CSS
+* Un `<p>` doit contenir au minimum une phrase
+  pour avoir du sens. Si ce n'est pas le cas on préférera une `<div>`.
+* Dans body toujours définir :
+  * La couleur de fond du site
+  * La police de base : famille, taille, couleur, épaisseur
+  * La hauteur de ligne
