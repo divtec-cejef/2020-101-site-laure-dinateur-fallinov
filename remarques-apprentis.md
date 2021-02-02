@@ -21,3 +21,8 @@
 * CSS spécifique à une page
   - Créer les groupes pour les règles spécifiques à une page.
   - Ajouter la class `page-xxxx` au `<body>` de chaque page.
+* Manque l’icône du site : `favicon.ico`
+* Google Fonts
+  - Un seul lien vers Google Fonts
+  - Injecter les Google Fonts dans `main.css` avec la directive `@import`
+
