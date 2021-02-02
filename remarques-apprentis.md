@@ -18,3 +18,6 @@
   `<br>` inutile !
   * Ne jamais utiliser <br> pour créer un espacement vertical !
   * Uniquement pour forcer un retour à la ligne !
+* CSS spécifique à une page
+  - Créer les groupes pour les règles spécifiques à une page.
+  - Ajouter la class `page-xxxx` au `<body>` de chaque page.
