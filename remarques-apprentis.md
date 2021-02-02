@@ -37,3 +37,5 @@
 * Pas d'id sauf si c'est pour placer une ancre HTML. Remplacer id par class
 * Supprimer `height `et `width`. On modifie la taille d'une image en CSS
 * Ajouter un ligne vierge à la fin de tous vos fichiers HTML et CSS
+* Un `<p>` doit contenir au minimum une phrase 
+  pour avoir du sens. Si ce n'est pas le cas on préférera une `<div>`.
