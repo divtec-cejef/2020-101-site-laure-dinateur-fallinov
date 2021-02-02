@@ -43,3 +43,5 @@
     * La couleur de fond du site
     * La police de base : famille, taille, couleur, épaisseur
     * La hauteur de ligne
+* Dans `<title>` bien mettre les mots-clés correspondant à la page : `Informations | Laure Dinateur | Graphiste`
+* Aérer le code en ajoutant une ligne vierge entre chaque déclaration CSS
