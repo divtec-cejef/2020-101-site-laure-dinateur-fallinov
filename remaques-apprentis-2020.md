@@ -45,3 +45,4 @@
     * La hauteur de ligne
 * Dans `<title>` bien mettre les mots-clés correspondant à la page : `Informations | Laure Dinateur | Graphiste`
 * Aérer le code en ajoutant une ligne vierge entre chaque déclaration CSS
+* Ajouter le reset CSS `normalize.css` avant `main.css`
