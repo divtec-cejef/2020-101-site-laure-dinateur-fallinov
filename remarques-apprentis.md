@@ -13,7 +13,7 @@
 * Footer : Créer une liste ul de a contenants des img
 * Essayer de grouper les déclaration identique : `h1, h2, h3`
 * Placer `<header>` dans `<body>`
-* Pas de majuscule dans les noms de class
+* Pas de majuscule dans les noms de class : `monChien -> mon-chien`
 * Placer le contenu principal de votre page dans `<main>`
   `<br>` inutile !
   * Ne jamais utiliser <br> pour créer un espacement vertical !
@@ -27,3 +27,11 @@
   - Injecter les Google Fonts dans `main.css` avec la directive `@import`
 * Dans le menu principal, ajouter lien vers `index.php`, cacher le `<li>` avec un `diplay:none;`
 * Interdiction d’utiliser la balise `<center>`. Remplacer par une `<div>` et y appliquer `text-align: center` en CSS
+* Organiser en bloc de commentaire les différents groupes de règles :
+  1. Général
+  2. Header
+  3. Main
+  4. Footer
+  5. Page accueil
+  6. Page informations
+  7. ...
