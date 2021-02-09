@@ -84,3 +84,4 @@
     padding: 0 0 0 30px;
 }
 ```
+* Supprimer tous les caractères y compris les espaces avant `<!DOCTYPE html>`
