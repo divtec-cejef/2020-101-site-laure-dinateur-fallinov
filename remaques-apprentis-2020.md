@@ -77,7 +77,7 @@
 * Il faut travailler l'image de fond des liens des éléments de la liste.
 ```css
 .infcontact li a {
-    background-image: url('../img/mail.png');
+    background-image: url('../images/mail.png');
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 0 2px;
