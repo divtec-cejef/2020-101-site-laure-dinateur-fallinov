@@ -47,3 +47,7 @@
 * Revoir indentation `CTRL+ALT+L`
 * Ajouter un espace entre le sélecteur CSS et l'accolade.
 * Ajouter une ligne vierge entre deux blocs de règles CSS.
+* Ajouter `main.css` après le reset CSS
+* **Pas de majuscules** et **pas de caractères spéciaux** (espaces, accents, ... )
+  dans les noms de fichiers HTML, CSS images et autres.
+* Changer chemin des images, ne pas utiliser `_sources/`
