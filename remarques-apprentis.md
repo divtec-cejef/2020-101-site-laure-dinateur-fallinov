@@ -12,7 +12,7 @@
 * Footer : Créer une liste ul de a contenants des img
 * Essayer de grouper les déclarations identiques : `h1, h2, h3`
 * Placer `<header>` dans `<body>`
-* Pas de majuscule dans les noms de class : `monChien -> mon-chien`
+* Pas de majuscule dans les noms de class et d'id: `monChien -> mon-chien`
 * Placer le contenu principal de votre page dans `<main>`
   `<br>` inutile !
   * Ne jamais Futiliser <br> pour créer un espacement vertical !
@@ -20,7 +20,13 @@
 * CSS spécifique à une page
   - Créer les groupes pour les règles spécifiques à une page.
   - Ajouter la class `page-xxxx` au `<body>` de chaque page.
-* Manque l’icône du site : `favicon.ico` - https://realfavicongenerator.net/
+* Icône du site
+  * Manque l’icône du site : `favicon.ico`
+  ```html
+    <!-- Icone de base -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16">
+  ```
+  * Pour générer tous les formats d'icônes :  https://realfavicongenerator.net/
 * Google Fonts
   - Un seul lien vers Google Fonts
   - Injecter les Google Fonts dans `main.css` avec la directive `@import`
@@ -34,10 +40,17 @@
   5. Page accueil
   6. Page informations
   7. ...
+
+  Exemple :
+  ```css
+  /************************
+  ******** GENERAL ********
+  ************************/
+  ```
 * Pas d'id sauf si c'est pour placer une ancre HTML. Remplacer id par class
 * Supprimer `height `et `width`. On modifie la taille d'une image en CSS
 * Ajouter un ligne vierge à la fin de tous vos fichiers HTML et CSS
-* Un `<p>` doit contenir au minimum une phrase 
+* Un `<p>` doit contenir au minimum une phrase
   pour avoir du sens. Si ce n'est pas le cas on préférera une `<div>`.
 * Dans body toujours définir :
   * La couleur de fond du site
@@ -71,4 +84,18 @@
     </ul>
 </nav>
 ```
-  
+* Pour toutes les règles du `<header>`, Précéder chaque sélecteur par  `header `
+  * Faux : `.logo {...}`
+  * Juste :  `header .logo {...}`
+* Il faut travailler l'image de fond des liens des éléments de la liste.
+```css
+.infcontact li a {
+    background-image: url('../images/mail.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 2px;
+    padding: 0 0 0 30px;
+}
+```
+* Supprimer tous les caractères y compris les espaces avant `<!DOCTYPE html>`
+* Remplacer le nom de l'auteur par le votre.
