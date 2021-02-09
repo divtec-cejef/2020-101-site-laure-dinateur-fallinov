@@ -53,3 +53,22 @@
 * Changer chemin des images, ne pas utiliser `_sources/`
 * Tout mettre dans un `<h1>` et ajouter `<br>` pour retour à la ligne.
 * pas de caractères spéciaux (accents, espaces) dans les nom des classes CSS.
+* Les liens vers les réseaux sociaux font partie d'une nav composé d'une liste de liens contenant des images.
+  Voici ma solution :
+```html
+<nav>
+    <ul>
+        <li>
+            <a href="https://twitter.com/lauredi">
+                <img src="img/twitter-draw.png" alt="Twitter">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/laure.dinateur">
+                <img src="img/facebook-draw.png" alt="Facebook">
+            </a>
+        </li>
+    </ul>
+</nav>
+```
+  

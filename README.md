@@ -167,26 +167,3 @@ Les contenus de la page d'accueil sont :
 * La légende des images à une marge intérieure de `10px` et une taille de
   texte de `1rem`.
 * Le débordement `overflow` du texte de la légende doit être masqué. 
-* Les liens vers les réseaux sociaux font partie d'une nav composé d'une liste de liens contenant des images.
-
-Voici ma solution :
-```html
-<nav>
-    <ul>
-        <li>
-            <a href="https://twitter.com/lauredi">
-                <img src="img/twitter-draw.png" alt="Twitter">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.facebook.com/laure.dinateur">
-                <img src="img/facebook-draw.png" alt="Facebook">
-            </a>
-        </li>
-    </ul>
-</nav>
-```
-  
-
-
-
