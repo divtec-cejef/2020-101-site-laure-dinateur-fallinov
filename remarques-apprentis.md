@@ -43,3 +43,4 @@
   * La couleur de fond du site
   * La police de base : famille, taille, couleur, épaisseur
   * La hauteur de ligne
+* Dans la `<nav>` mettre le classes aux `<li>` pas aux `<a>`
