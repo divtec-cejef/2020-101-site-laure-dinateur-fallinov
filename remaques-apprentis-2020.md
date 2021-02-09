@@ -71,4 +71,16 @@
     </ul>
 </nav>
 ```
-  
+* Pour toutes les règles du `<header>`, Précéder chaque sélecteur par  `header `
+  * Faux : `.logo {...}`
+  * Juste :  `header .logo {...}`
+* Il faut travailler l'image de fond des liens des éléments de la liste.
+```css
+.infcontact li a {
+    background-image: url('../img/mail.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 2px;
+    padding: 0 0 0 30px;
+}
+```
