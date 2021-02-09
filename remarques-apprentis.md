@@ -15,7 +15,7 @@
 * Pas de majuscule dans les noms de class : `monChien -> mon-chien`
 * Placer le contenu principal de votre page dans `<main>`
   `<br>` inutile !
-  * Ne jamais utiliser <br> pour créer un espacement vertical !
+  * Ne jamais Futiliser <br> pour créer un espacement vertical !
   * Uniquement pour forcer un retour à la ligne !
 * CSS spécifique à une page
   - Créer les groupes pour les règles spécifiques à une page.
@@ -51,3 +51,5 @@
 * **Pas de majuscules** et **pas de caractères spéciaux** (espaces, accents, ... )
   dans les noms de fichiers HTML, CSS images et autres.
 * Changer chemin des images, ne pas utiliser `_sources/`
+* Tout mettre dans un `<h1>` et ajouter `<br>` pour retour à la ligne.
+* pas de caractères spéciaux (accents, espaces) dans les nom des classes CSS.
