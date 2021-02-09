@@ -20,7 +20,7 @@
 * CSS spécifique à une page
   - Créer les groupes pour les règles spécifiques à une page.
   - Ajouter la class `page-xxxx` au `<body>` de chaque page.
-* Manque l’icône du site : `favicon.ico`
+* Manque l’icône du site : `favicon.ico` - https://realfavicongenerator.net/
 * Google Fonts
   - Un seul lien vers Google Fonts
   - Injecter les Google Fonts dans `main.css` avec la directive `@import`
@@ -46,3 +46,4 @@
 * Dans la `<nav>` mettre le classes aux `<li>` pas aux `<a>`
 * Revoir indentation `CTRL+ALT+L`
 * Ajouter un espace entre le sélecteur CSS et l'accolade.
+* Ajouter une ligne vierge entre deux blocs de règles CSS.
