@@ -44,3 +44,5 @@
   * La police de base : famille, taille, couleur, épaisseur
   * La hauteur de ligne
 * Dans la `<nav>` mettre le classes aux `<li>` pas aux `<a>`
+* Revoir indentation `CTRL+ALT+L`
+* Ajouter un espace entre le sélecteur CSS et l'accolade.
