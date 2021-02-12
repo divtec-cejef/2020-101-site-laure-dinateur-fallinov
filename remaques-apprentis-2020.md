@@ -99,3 +99,5 @@
 ```
 * Supprimer tous les caractères y compris les espaces avant `<!DOCTYPE html>`
 * Remplacer le nom de l'auteur par le votre.
+* Renommer `accueil.html` en `index.html`. Il doit toujours y avoir un
+  fichier `index.html` à la racine du site.  
