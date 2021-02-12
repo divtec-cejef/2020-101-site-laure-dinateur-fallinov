@@ -50,3 +50,7 @@
 * Dans `<title>`, ne pas mettre uniquement le nom du site.
   Il ne faut pas oublier de mettre en 1er le nom de la page (copie du h1)
 * CSS, Ajouter un espace après les `,` des sélecteurs
+* Ajouter `href` vers tel et email. Tous les liens doivent avoir un cible 
+  donc un attribut `href`.
+* Renommer `accueil.html` en `index.html`. Il doit toujours y avoir un 
+  fichier `index.html` à la racine du site.  
