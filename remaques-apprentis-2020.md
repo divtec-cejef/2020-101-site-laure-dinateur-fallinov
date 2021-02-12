@@ -104,3 +104,4 @@
 * Pour atteindre des images dans les fichiers CSS ne pas oublier qu'il
 faut en premier sortir du dossier `images/`.
   `background-image : url("../images/phone.png");`
+* Ajouter police générique  
